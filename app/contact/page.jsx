@@ -47,7 +47,7 @@ export const Contact = () => {
           {/* form */}
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-              <h3 className="text 4xl text-accent">Let's work together</h3>
+              <h3 className="text 4xl text-accent">Let&apos;s work together</h3>
               <p className="text-whhite/60">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit Phasellus
                 eget ipsum nunc Duis vehicula nisi eu enim vehicula sed
