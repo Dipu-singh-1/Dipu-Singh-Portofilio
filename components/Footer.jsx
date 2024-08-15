@@ -90,7 +90,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr className="mx-12" />
+      <hr className="mx-12 border-gray-500" />
 
       <div className="container mx-auto text-center mt-2">
         <div className="flex justify-center space-x-6 text-sm gap-10 text-gray-500">
