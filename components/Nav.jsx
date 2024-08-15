@@ -32,18 +32,17 @@ export const Nav = () => {
         );
       })}
       <ul className="flex gap-4">
-      <Link href="/contact">
-            <Button variant=''>Hire me</Button>
-          </Link>
-       <Button className="" variant='outline'>
-       <SignedIn>
-          <UserButton />
-        </SignedIn>
-        <SignedOut>
-          <SignInButton />
-        </SignedOut>
-       </Button>
-       
+        <Link href="/contact">
+          <Button>Hire me</Button>
+        </Link>
+        <Button variant="outline">
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+          <SignedOut>
+            <SignInButton />
+          </SignedOut>
+        </Button>
       </ul>
     </nav>
   );
