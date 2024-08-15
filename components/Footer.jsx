@@ -2,7 +2,7 @@ import { Linkedin, Github, Twitter, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-800 text-white py-10 " style={{ fontFamily: 'Times New Roman, serif' }}>
+    <footer className="bg-slate-800 text-white py-10 ">
       <div className="container mx-auto grid grid-cols-4 md:grid-cols-4 gap-0 relative ">
         <div>
           <h3 className="font-semibold mb-4">Dipu Singh</h3>
