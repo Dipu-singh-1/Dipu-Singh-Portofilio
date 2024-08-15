@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+import { Button } from "./ui/button";
 
 const links = [
   { name: "home", path: "/" },
@@ -29,6 +31,20 @@ export const Nav = () => {
           </Link>
         );
       })}
+      <ul className="flex gap-4">
+      <Link href="/contact">
+            <Button variant=''>Hire me</Button>
+          </Link>
+       <Button className="" variant='outline'>
+       <SignedIn>
+          <UserButton />
+        </SignedIn>
+        <SignedOut>
+          <SignInButton />
+        </SignedOut>
+       </Button>
+       
+      </ul>
     </nav>
   );
 };
